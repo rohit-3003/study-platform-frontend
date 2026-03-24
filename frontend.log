@@ -1,0 +1,34 @@
+
+> study-platform-frontend@0.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                    |  Raw size
+polyfills.js        | polyfills                |  88.09 kB | 
+main.js             | main                     |  15.98 kB | 
+styles.css          | styles                   |   7.38 kB | 
+chunk-AHTLN7IA.js   | -                        |   2.53 kB | 
+chunk-F356T2HP.js   | -                        |   1.28 kB | 
+chunk-DKYLMDT6.js   | -                        | 229 bytes | 
+
+                    | Initial total            | 115.48 kB
+
+Lazy chunk files    | Names                    |  Raw size
+chunk-DWENFEGT.js   | test-taking-component    |  23.38 kB | 
+chunk-CLBGJP5Q.js   | study-planner-component  |  15.94 kB | 
+chunk-7W3R3ZDZ.js   | profile-component        |  15.20 kB | 
+chunk-AHMGOD5B.js   | landing-component        |  13.76 kB | 
+chunk-U745EHJR.js   | subscription-component   |  12.68 kB | 
+chunk-UXNR5YWL.js   | dashboard-component      |  12.45 kB | 
+chunk-H36ZCY3I.js   | mock-test-component      |  11.87 kB | 
+chunk-CEJHRQR6.js   | signup-component         |   9.76 kB | 
+chunk-HYQDMI67.js   | rank-predictor-component |   7.23 kB | 
+chunk-YE5AIM3K.js   | login-component          |   6.81 kB | 
+chunk-37Z6CM6O.js   | -                        |   2.24 kB | 
+
+Application bundle generation complete. [22.152 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+  ➜  press h + enter to show help
