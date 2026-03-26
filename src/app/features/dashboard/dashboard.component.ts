@@ -119,7 +119,11 @@ export class DashboardComponent implements OnInit, AfterViewInit {
 
   ngOnInit() {
     this.api.getDashboardStats().subscribe({
-      next: (res) => { if (res.success) this.stats = res.data; this.loading = false; this.renderChart(); },
+      next: (res) => { 
+        if (res.success) this.stats = res.data; 
+        this.loading = false; 
+        setTimeout(() => this.renderChart(), 0); 
+      },
       error: () => { this.loading = false; }
     });
   }
